@@ -1,25 +1,27 @@
-body{
-    font-family: sans-serif;
-	background-image: url('viztukor.png');
+body {
+  font-family: sans-serif;
+  background-image: url("viztukor.png");
 }
 
-#leiras{
-	background-image: url('fatyol.png');
-	width: 880px;
-	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+#leiras {
+  background-image: url("fatyol.png");
+  width: 880px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  padding: 35px;
 }
 
-h1{
-	color: indigo;
-	font-variant: small-caps;
-	text-shadow: 1px 1px white;
+h1,
+h2 {
+  color: indigo;
+  font-variant: small-caps;
+  text-shadow: 1px 1px white;
 }
 
-p{
+p {
   text-indent: 35px;
   text-align: justify;
   letter-spacing: -0.1px;
@@ -33,19 +35,24 @@ p{
   font-size: 75%;
   padding: 0px 5px 5px;
   margin-left: 10px;
-  background-image: url('fatyol.png');
+  background-image: url("fatyol.png");
   border-radius: 25px;
   overflow: hidden;
-  box-shadow: 10px 10px 10px gray;  
+  box-shadow: 10px 10px 10px gray;
+  border: 2px solid darkblue;
+  font-style: italic;
 }
 
-.kepkeret img{
-	width: 385px;
+.kepkeret img {
+  width: 385px;
   position: relative;
   left: -5px;
 }
 
-
-a{
+a {
   text-decoration: none;
+  font-weight: 700;
+}
+li {
+  margin-bottom: 25px;
 }
